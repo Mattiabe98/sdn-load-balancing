@@ -1,10 +1,16 @@
-# SDN - OpenFlow load balancing project for course on Network Automation
+# SDN - OpenFlow load balancing project for course on Network Automation 
+## PoliMi [BONSAI Lab](https://www.bonsai.deib.polimi.it/)
 
 ## Authors
 
+- [Mattia Bevilacqua](https://gitlab.com/Mattiabe98)
 - [Enrico Gregorini](https://gitlab.com/Enrico.Gregorini)
 - [Daniele Gjeka](https://gitlab.com/danielegjeka)
-- [Mattia Bevilacqua](https://gitlab.com/Mattiabe98)
+
+## Implementation
+
+![image](https://github.com/Mattiabe98/sdn-load-balancing/assets/49247389/93283de8-f3b1-43e2-a76c-3b0e4c05d61d)
+
 
 ## Dependencies
 Install `pandas` and `matplotlib` dependencies:
@@ -129,4 +135,10 @@ python3 create_chart.py x traffic_type
 where `x` indicates the topology that used to create the plot and `traffic_type` can be either `itg` or `iperf`, to distinguish the measurements and plots obtained from the simulations performed with D-ITG or iPerf3 respectively.
 
 Depending on the traffic, when the load balancer is activated, the generated graph will show the good behaviour of the load balancer. Comparing this graph to a simulation without load balancing clearly shows the performance improvements of using a load balancer.
+
+## Results
+
+Traffic generated with iperf3:
+
+![image](https://github.com/Mattiabe98/sdn-load-balancing/assets/49247389/4a84e25b-bd8e-4ae5-a89d-8881a4b2935a)
 
